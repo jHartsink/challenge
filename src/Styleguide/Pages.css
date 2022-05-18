@@ -1,0 +1,18 @@
+section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+}
+.svgArt {
+	position: absolute;
+	top: 260%;
+	left: 60%;
+	overflow: hidden;
+	height: 155vh;
+}
+@media screen and (max-width: 992px) {
+
+}

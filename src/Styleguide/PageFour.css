@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'HelveticaNowforMonks';
+    src: local('HelveticaNowforMonks-bold'), url('../assets/fonts/HelveticaNowForMonks/woff2/HelveticaNowforMonks-Bold.woff2');
+}
+
+.pageFour { 
+    background-color: #4F24EE;
+    color: #E1FF9A;
+}
+.logo-4 { 
+    position: absolute;
+    top: 305%;
+    
+    
+
+}
+.logo-4 path{
+    fill:  #E1FF9A;;
+   }
+.container-4{
+    font-size:90px;
+    margin-left: 5%;
+    margin-right: 30%;
+    font-family: "HelveticaNowforMonks";
+    padding-top: 5%;
+    line-height: 110px;
+}
+.copy-2 { 
+    position: relative;
+    top: 10%;
+    font-size: 30px;
+    width: 550px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+}
