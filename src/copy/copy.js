@@ -31,4 +31,4 @@ const copy = [
   },
 ];
 
-export default copy;
+export {copy};

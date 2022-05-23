@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "../Styleguide/PageFour.css";
 import { useNav } from "../customHooks/useNav";
 import { ReactComponent as Logo } from "../Images/Logo.svg";
-import copy from "../copy/copy";
+import {copy} from "../copy/copy.js";
 
 function pageFour() {
   const [text] = useState(copy);
@@ -16,7 +16,7 @@ function pageFour() {
         {text.map((header) => (
           <>
             <h1 key={header.name}>{header.headerThree}</h1>
-            <p className="copy-2">{header.copyTwo}</p>
+            <p className="copy-3">{header.copyTwo}</p>
           </>
         ))}
       </div>

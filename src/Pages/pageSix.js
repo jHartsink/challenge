@@ -4,7 +4,7 @@ import { useNav } from "../customHooks/useNav";
 import "../Styleguide/PageSix.css";
 import Vector from "../Images/Vector 2490.svg";
 import { ReactComponent as Logo } from "../Images/Logo.svg";
-import copy from "../copy/copy";
+import {copy} from "../copy/copy.js";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 

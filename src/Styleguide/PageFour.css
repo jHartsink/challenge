@@ -32,20 +32,16 @@
 }
 @media screen and (max-width: 992px) {
 
-    .container-3{
+    .container-4{
         margin-left: 10%;
         margin-right: 30%;
         font-size: 20px;
         line-height: 40px;
         }
         .vector-2 { 
-            position: absolute;
-            bottom: 44%;
-            left: 30%;
-            width: 130px;
-            height: 40px;
+            display: none;
         }  
-        .copy-2 { 
+        .copy-3 { 
             position: relative;
             top: 10%;
             font-size: 15px;

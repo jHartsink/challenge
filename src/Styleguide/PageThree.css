@@ -45,11 +45,7 @@
         line-height: 40px;
         }
         .vector-2 { 
-            position: absolute;
-            bottom: 44%;
-            left: 10%;
-            width: 130px;
-            height: 40px;
+          display: none;
         }  
         .copy-1 { 
             position: relative;

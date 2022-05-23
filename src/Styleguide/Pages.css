@@ -29,3 +29,8 @@ h1 {
 p { 
 	font-family: 'HelveticaNowforMonks';
 }
+@media screen and (max-width: 992px) {
+.svgArt { 
+	display: none;
+}
+  }

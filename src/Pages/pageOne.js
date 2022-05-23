@@ -3,7 +3,7 @@ import "../Styleguide/Pages.css";
 import "../Styleguide/PageOne.css";
 import { useNav } from "../customHooks/useNav";
 import Vector from "../Images/Vector 2490.svg";
-import copy from "../copy/copy.js";
+import {copy} from "../copy/copy.js";
 import { ReactComponent as Logo } from "../Images/Logo.svg";
 import gsap from "gsap";
 
@@ -40,10 +40,8 @@ function PageOne() {
           <Logo />
         </div>
         <div ref={section} className="container-1">
-          {text.map((header) => (
-            <h1 key={header.name} className="header">
-              {header.headerOne}
-            </h1>
+          {text.map((header, index) => (
+            <h1 key={header.name}>{header.headerOne}</h1>
           ))}
         </div>
         <img ref={vector} className="vector" src={Vector} alt="vector"></img>

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useNav } from "../customHooks/useNav";
 import { ReactComponent as Logo } from "../Images/Logo.svg";
 import "../Styleguide/PageSeven.css";
-import copy from "../copy/copy";
+import {copy} from "../copy/copy.js";
 
 function pageSeven() {
   const [text] = useState(copy);
