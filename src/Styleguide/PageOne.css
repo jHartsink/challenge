@@ -1,8 +1,4 @@
 
-@font-face {
-    font-family: 'HelveticaNowforMonks';
-    src: local('HelveticaNowforMonks-bold'), url('../assets/fonts/HelveticaNowForMonks/woff2/HelveticaNowforMonks-Bold.woff2');
-}
 
 .pageOne { 
     background-color: #2C2D38;
@@ -10,12 +6,12 @@
 
 }
 .container-1{
-font-family: 'HelveticaNowforMonks';
 position: relative;
-right: 20%;
-width: 800px;
-font-size: 80px;
-line-height: 115px;
+font-size:70px;
+margin-top: 5%;
+margin-left: 10%;
+margin-right: 40%;
+line-height: 110px;
 opacity: 0;
 }
 .logo { 

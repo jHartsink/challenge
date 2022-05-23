@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'HelveticaNowforMonks';
-    src: local('HelveticaNowforMonks-bold'), url('../assets/fonts/HelveticaNowForMonks/woff2/HelveticaNowforMonks-Bold.woff2');
-}
+
 
 .pageFour { 
     background-color: #4F24EE;
@@ -18,10 +15,9 @@
     fill:  #E1FF9A;;
    }
 .container-4{
-    font-size:90px;
-    margin-left: 5%;
-    margin-right: 30%;
-    font-family: "HelveticaNowforMonks";
+    font-size:70px;
+    margin-left: 10%;
+    margin-right: 25%;
     padding-top: 5%;
     line-height: 110px;
 }
@@ -34,3 +30,28 @@
     font-weight: bold;
     line-height: 40px;
 }
+@media screen and (max-width: 992px) {
+
+    .container-3{
+        margin-left: 10%;
+        margin-right: 30%;
+        font-size: 20px;
+        line-height: 40px;
+        }
+        .vector-2 { 
+            position: absolute;
+            bottom: 44%;
+            left: 30%;
+            width: 130px;
+            height: 40px;
+        }  
+        .copy-2 { 
+            position: relative;
+            top: 10%;
+            font-size: 15px;
+            width: 200px;
+            text-align: center;
+            font-weight: bold;
+            line-height: 20px;
+        }  
+  }

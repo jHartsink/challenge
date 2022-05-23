@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'HelveticaNowforMonks-bold';
+    src: local('HelveticaNowforMonks-bold'), url('../assets/fonts/HelveticaNowForMonks/otf/HelveticaNowforMonks-ExtXBd.ttf');
+}
+@font-face {
+	font-family:'HelveticaNowforMonks' ;
+	src: local('HelveticaNowforMonks'), url('../assets/fonts/HelveticaNowForMonks/otf/HelveticaNowforMonks-Light.otf')
+}
+
 section {
 	display: flex;
 	align-items: center;
@@ -6,6 +15,7 @@ section {
 	width: 100%;
 	overflow: hidden;
 }
+
 .svgArt {
 	position: absolute;
 	top: 260%;
@@ -13,6 +23,9 @@ section {
 	overflow: hidden;
 	height: 155vh;
 }
-@media screen and (max-width: 992px) {
-
+h1 {
+	font-family: "HelveticaNowforMonks-bold";
+}
+p { 
+	font-family: 'HelveticaNowforMonks';
 }
