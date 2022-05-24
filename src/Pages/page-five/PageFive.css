@@ -11,13 +11,13 @@
 .logo-5 path{
     fill:   #FF245B;
    }
-.container-5{
+.container-page-5{
     font-size:70px;
     margin-left: 10%;
     margin-right: 35%;
     line-height: 110px;
 }
-.copy-3 { 
+.copy-page-5{ 
     position: relative;
     top: 10%;
     font-size: 30px;
@@ -29,14 +29,14 @@
 
 @media screen and (max-width: 992px) {
 
-    .container-5{
+    .container-page-5{
         margin-left: 10%;
         margin-right: 30%;
         font-size: 20px;
         line-height: 40px;
         }
  
-        .copy-3 { 
+        .copy-page-5 { 
             position: relative;
             top: 10%;
             font-size: 15px;

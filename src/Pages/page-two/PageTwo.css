@@ -1,5 +1,6 @@
 .pageTwo { 
     background-color: #2C2D38;
+    scroll-snap-align: center;
 }
 .logo-2 { 
     position: absolute;

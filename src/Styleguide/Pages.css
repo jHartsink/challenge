@@ -14,8 +14,13 @@ section {
 	height: 100vh;
 	width: 100%;
 	overflow: hidden;
-}
+	scroll-snap-align:center;
 
+	
+}
+html{ 
+	scroll-snap-type: y;
+}
 .svgArt {
 	position: absolute;
 	top: 260%;
@@ -30,7 +35,7 @@ p {
 	font-family: 'HelveticaNowforMonks';
 }
 @media screen and (max-width: 992px) {
-.svgArt { 
+svg { 
 	display: none;
 }
   }

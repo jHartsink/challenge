@@ -1,17 +1,17 @@
-/* eslint-disable react-hooks/rules-of-hooks */
+
 import React, { useState, useRef ,useEffect } from "react";
-import { useNav } from "../customHooks/useNav";
-import "../Styleguide/PageSix.css";
-import Vector from "../Images/Vector 2490.svg";
-import { ReactComponent as Logo } from "../Images/Logo.svg";
-import {copy} from "../copy/copy.js";
+import { UseNav } from "../../customHooks/UseNav";
+import "./PageSix.css";
+import Vector from "../../Images/Vector 2490.svg";
+import { ReactComponent as Logo } from "../../Images/Logo.svg";
+import {Data} from "../../copy/copy.js";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-function pageSix() {
+function PageSix() {
   const vector = useRef()
-  const [text] = useState(copy);
-  const PageSix = useNav("6");
+  const [text] = useState(Data);
+  const PageSix = UseNav("6");
 
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
@@ -35,17 +35,17 @@ function pageSix() {
   return (
     <section ref={PageSix} id="pageSix" className=" pageSix">
       <div className="logo-6" ><Logo /></div>
-      <div className="container-6">
-        {text.map((header) => (
+      <div className="container-page-6">
+        {text.map((text) => (
           <>
-            <h1 key={header.name}>{header.headerFive}</h1>
-            <p className="copy-4">{header.copyFour}</p>
+            <h1 key={text.name}>{text.HeaderPageFive}</h1>
+            <p  className="copy-page-6">{text.CopyPageSix}</p>
           </>
         ))}
       </div>
-      <img ref = {vector}className="vector-3" src={Vector} alt="vector"></img>
+      <img ref = {vector}className="vector-page-6" src={Vector} alt="vector"></img>
     </section>
   );
 }
 
-export default pageSix;
+export default PageSix;

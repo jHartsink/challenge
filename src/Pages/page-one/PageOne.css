@@ -3,7 +3,7 @@
     color: #DFBBFE;
 
 }
-.container-1{
+.container-1 {
 position: relative;
 font-size:70px;
 margin-top: 5%;
@@ -18,12 +18,13 @@ opacity: 0;
     
 }
 
-.vector { 
+.vector-page-1{ 
     position: absolute;
-    padding-top: 25%;
-    left: 30%;
+    padding-top: 30%;
+    left: 40%;
     opacity: 0;
 }
+
 
 @media screen and (max-width: 992px) {
     .container-1{
@@ -31,7 +32,7 @@ opacity: 0;
         font-size: 20px;
         line-height: 40px;
         }
-        .vector { 
+        .vector-page-1 { 
             display: none;
         }
         

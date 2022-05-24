@@ -1,23 +1,27 @@
 
-.pageSix { 
-    background-color: #00DC7C;
-    color: #4F24EE;
-}
-.logo-6 { 
-    position: absolute;
-    top: 505%;
 
+.pageThree{ 
+    background-color: #FFCB16;
+    color: #7D26C9;
 }
-.logo-6 path{
-    fill: #4F24EE;
+.logo-3 { 
+    position: absolute;
+    top: 205%;
+        
+}
+.logo-3 path{
+    fill: #7D26C9;
    }
-.container-6{
-    font-size:70px;
+
+.container-page-3 {
+    font-size:60px;
+    margin-top: 5%;
     margin-left: 10%;
-    margin-right: 25%;
-    line-height: 110px;
+    margin-right: 35%;
+    line-height: 90px;
+    
 }
-.copy-4 { 
+.copy-page-3 { 
     position: relative;
     top: 10%;
     font-size: 30px;
@@ -26,23 +30,25 @@
     font-weight: bold;
     line-height: 40px;
 }
-.vector-3 { 
+.vector-page-3{ 
     position: absolute;
-    padding-right: 40%;
-    padding-top: 12%;
+    padding-top: 3%;
+    left:44%;
     opacity: 0;
 }
 
 @media screen and (max-width: 992px) {
 
-    .container-6{
+    .container-page-3{
         margin-left: 10%;
         margin-right: 30%;
         font-size: 20px;
         line-height: 40px;
         }
- 
-        .copy-4 { 
+        .vector-page-3 { 
+          display: none;
+        }  
+        .copy-page-3 { 
             position: relative;
             top: 10%;
             font-size: 15px;
@@ -50,8 +56,5 @@
             text-align: center;
             font-weight: bold;
             line-height: 20px;
-        } 
-        .vector-3 { 
-            display: none;
-        }
+        }  
   }

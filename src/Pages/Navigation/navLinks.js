@@ -1,5 +1,5 @@
 export const navLinks = [
-	{ navLinkId: '1', scrollToId: 'pageOne' },
+	{ navLinkId: '1', scrollToId: 'pageOne' }, 
 	{ navLinkId: '2', scrollToId: 'pageTwo' },
 	{ navLinkId: '3', scrollToId: 'pageThree' },
     { navLinkId: '4', scrollToId: 'pageFour' },
@@ -7,3 +7,5 @@ export const navLinks = [
 	{ navLinkId: '6', scrollToId: 'pageSix' },
     { navLinkId: '7', scrollToId: 'pageSeven' },
 ];
+
+

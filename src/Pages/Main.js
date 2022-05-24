@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from "react";
-import PageOne from "./pageOne";
-import PageTwo from "./pageTwo";
-import PageThree from "./pageThree";
-import PageFour from "./pageFour";
-import PageFive from "./pageFive";
-import PageSix from "./pageSix";
-import PageSeven from "./pageSeven";
+import PageOne from "./page-one/PageOne";
+import PageTwo from "./page-two/PageTwo";
+import PageThree from "./page-three/PageThree";
+import PageFour from "./page-four/PageFour";
+import PageFive from "./page-five/PageFive";
+import PageSix from "./page-six/PageSix";
+import PageSeven from "./page-seven/PageSeven";
 import Navigation from "./Navigation/Navigation";
 import { ReactComponent as Art } from "../Images/Art.svg";
 import gsap from "gsap";

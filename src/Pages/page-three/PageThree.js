@@ -1,17 +1,16 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 import React, { useState, useRef, useEffect } from "react";
-import "../Styleguide/PageThree.css";
-import { useNav } from "../customHooks/useNav";
-import Vector from "../Images/Vector 2490.svg";
-import { ReactComponent as Logo } from "../Images/Logo.svg";
-import {copy} from "../copy/copy.js";
+import "./PageThree.css";
+import { UseNav } from "../../customHooks/UseNav";
+import Vector from "../../Images/Vector 2490.svg";
+import { ReactComponent as Logo } from "../../Images/Logo.svg";
+import { Data } from "../../copy/copy.js";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-function pageThree() {
+function PageThree() {
   const vector = useRef();
-  const [text] = useState(copy);
-  const ThirdPage = useNav("3");
+  const [text] = useState(Data);
+  const ThirdPage = UseNav("3");
 
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
@@ -37,20 +36,23 @@ function pageThree() {
         <div className="logo-3">
           <Logo />
         </div>
-        <div className="container-3">
-          {text.map((header, i) => (
+        <div className="container-page-3">
+          {text.map((text) => (
             <>
-              <h1 key={header.key} className="header-2">
-                {header.headerTwo}
-              </h1>
-              <p className="copy-1">{header.copyOne}</p>
+              <h1 key={text.name}>{text.HeaderPageThree}</h1>
+              <p className="copy-page-3">{text.CopyPageThree}</p>
             </>
           ))}
         </div>
-        <img ref={vector} className="vector-2" src={Vector} alt="vector"></img>
+        <img
+          ref={vector}
+          className="vector-page-3"
+          src={Vector}
+          alt="vector"
+        ></img>
       </section>
     </>
   );
 }
 
-export default pageThree;
+export default PageThree;

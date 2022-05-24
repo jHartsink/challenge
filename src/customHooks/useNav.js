@@ -2,7 +2,7 @@ import { useRef, useContext, useEffect } from "react";
 import { useOnScreen } from "./useOnScreen";
 import { NavContext } from "../Context/NavContext";
 
-export const useNav = (navLinkId) => {
+export const UseNav = (navLinkId) => {
   const ref = useRef(null);
 
   const { setActiveNavLinkId } = useContext(NavContext);

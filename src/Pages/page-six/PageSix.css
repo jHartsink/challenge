@@ -1,42 +1,48 @@
 
-
-
-.pageSeven { 
-    background-color: #002838;
-    color: #00DC7C;
+.pageSix { 
+    background-color: #00DC7C;
+    color: #4F24EE;
 }
-.logo-7 { 
+.logo-6 { 
     position: absolute;
-    top: 605%;
-  
+    top: 505%;
+
 }
-.logo-7 path {
-    fill :  #00DC7C;
-}
-.container-7 {
+.logo-6 path{
+    fill: #4F24EE;
+   }
+.container-page-6 {
     font-size:70px;
     margin-left: 10%;
-    margin-right: 45%;
-    line-height: 90px;
+    margin-right: 25%;
+    line-height: 110px;
 }
-.copy-5 { 
+.copy-page-6 { 
     position: relative;
     top: 10%;
     font-size: 30px;
     width: 550px;
     text-align: center;
     font-weight: bold;
+    line-height: 40px;
 }
+.vector-page-6 { 
+    position: absolute;
+    padding-right: 40%;
+    padding-top: 12%;
+    opacity: 0;
+}
+
 @media screen and (max-width: 992px) {
 
-    .container-7{
+    .container-page-6{
         margin-left: 10%;
         margin-right: 30%;
         font-size: 20px;
         line-height: 40px;
         }
  
-        .copy-6 { 
+        .copy-page-6 { 
             position: relative;
             top: 10%;
             font-size: 15px;
@@ -44,5 +50,8 @@
             text-align: center;
             font-weight: bold;
             line-height: 20px;
-        }  
+        } 
+        .vector-page-6 { 
+            display: none;
+        }
   }

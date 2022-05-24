@@ -14,14 +14,14 @@
 .logo-4 path{
     fill:  #E1FF9A;;
    }
-.container-4{
+.container-page-4{
     font-size:70px;
     margin-left: 10%;
     margin-right: 25%;
     padding-top: 5%;
     line-height: 110px;
 }
-.copy-2 { 
+.copy-page-4 { 
     position: relative;
     top: 10%;
     font-size: 30px;
@@ -32,7 +32,7 @@
 }
 @media screen and (max-width: 992px) {
 
-    .container-4{
+    .container-page-4{
         margin-left: 10%;
         margin-right: 30%;
         font-size: 20px;
@@ -41,7 +41,7 @@
         .vector-2 { 
             display: none;
         }  
-        .copy-3 { 
+        .copy-page-4 { 
             position: relative;
             top: 10%;
             font-size: 15px;
