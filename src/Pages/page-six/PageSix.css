@@ -53,3 +53,21 @@
             display: none;
         }
   }
+  @media screen and (min-width: 2560px) { 
+    .container-page-6{
+        left: 10%;
+        font-size: 90px;
+        line-height: 120px;
+        }
+        .copy-page-6 { 
+            font-size: 60px;
+            width: 1050px;
+            line-height: 60px;
+        }
+        .vector-page-6 { 
+            width: 500px;
+        }
+        .logo-6{
+            zoom: 2;
+        }
+  }

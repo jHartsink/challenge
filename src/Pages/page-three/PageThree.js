@@ -22,7 +22,7 @@ function PageThree() {
           end: "1900px",
           markers: false,
           ease: "power2.easeIn",
-          toggleActions: "play none none reverse",
+          toggleActions: "play none none reset",
         },
         opacity: 1,
         duration: 1,

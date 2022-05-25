@@ -45,3 +45,19 @@
             line-height: 25px;
         }  
   }
+
+  @media screen and (min-width: 2560px) { 
+    .container-page-7{
+        left: 10%;
+        font-size: 90px;
+        line-height: 120px;
+        }
+        .copy-page-7 { 
+            font-size: 60px;
+            width: 1080px;
+            line-height: 60px;
+        }
+        .logo-7{
+            zoom: 2;
+        }
+  }

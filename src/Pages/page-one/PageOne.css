@@ -20,8 +20,9 @@ opacity: 0;
 
 .vector-page-1{ 
     position: absolute;
+    width: 350px;
     padding-top: 30%;
-    left: 40%;
+    left: 35%;
     opacity: 0;
 }
 
@@ -36,4 +37,19 @@ opacity: 0;
             display: none;
         }
         
+  }
+  @media screen and (min-width: 2560px) { 
+    .container-1{
+        left: 10%;
+        font-size: 90px;
+        line-height: 120px;
+        }
+        .vector-page-1 { 
+        width: 500px;
+        left: 43%;
+        padding-top: 25%;
+        }
+        .logo { 
+            zoom: 2;
+        }
   }
