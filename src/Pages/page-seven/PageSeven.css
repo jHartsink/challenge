@@ -31,18 +31,17 @@
 
     .container-page-7{
         margin-left: 10%;
-        margin-right: 30%;
-        font-size: 20px;
+        margin-right: 10%;
+        font-size: 30px;
         line-height: 40px;
         }
  
         .copy-page-7 { 
             position: relative;
             top: 10%;
-            font-size: 15px;
-            width: 200px;
-            text-align: center;
+            font-size: 20px;
+            width: 300px;
             font-weight: bold;
-            line-height: 20px;
+            line-height: 25px;
         }  
   }

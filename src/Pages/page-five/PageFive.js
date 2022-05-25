@@ -5,7 +5,7 @@ import { ReactComponent as Logo } from "../../Images/Logo.svg";
 import { Data } from "../../copy/copy.js";
 
 function PageFive() {
-  const [text, setText] = useState(Data);
+  const [text] = useState(Data);
   const PageFive = UseNav("5");
 
   return (

@@ -35,7 +35,7 @@ p {
 	font-family: 'HelveticaNowforMonks';
 }
 @media screen and (max-width: 992px) {
-svg { 
+.svgArt { 
 	display: none;
 }
   }
