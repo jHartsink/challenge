@@ -38,7 +38,7 @@ function PageSix() {
       <div className="container-page-6">
         {text.map((text) => (
           <>
-            <h1 key={text.name}>{text.HeaderPageFive}</h1>
+            <h1 key={text.name}>{text.HeaderPageSix}</h1>
             <p  className="copy-page-6">{text.CopyPageSix}</p>
           </>
         ))}
