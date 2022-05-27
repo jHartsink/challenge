@@ -11,14 +11,16 @@ nav {
 }
 
 nav span {
-	font-size: 12px;
+	font-size: 14px;
+	font-weight: bold;
 	border: 1px solid ;
     text-align: center;
     border-radius: 50%;
 	transition: border 0.3s ease;
 	transition-delay: 0.45s;
+	outline: 0;
     width: 20px;
-	padding: 1px;
+	padding: 5px;
     height: auto;
 	margin-bottom: 10px;
    
@@ -26,13 +28,37 @@ nav span {
 
 nav span:hover {
 	cursor: pointer;
+	
 
 }
-
-nav span.activeClass {
-background-color: aliceblue;
+.NavOne { 
+   color: #2C2D38;
+    background-color: #DFBBFE;
 }
-
+.NavTwo { 
+	color: #2C2D38;
+    background-color: #DFBBFE;
+}
+.NavThree { 
+    color: #FFCB16;
+    background-color: #7D26C9;
+}
+.NavFour { 
+    color: #4F24EE;
+    background-color: #E1FF9A;
+}
+.NavFive { 
+    color: #3C0C60;
+    background-color: #FF245B;
+}
+.NavSix { 
+    color: #00DC7C;
+    background-color: #4F24EE;
+}
+.NavSeven { 
+    color: #002838;
+    background-color: #00DC7C;
+}
 @media screen and (max-width: 992px) {
 	nav { 
 

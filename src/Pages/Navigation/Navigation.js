@@ -6,11 +6,12 @@ import "./nav.css";
 export default function Navigation  ()  {
   return (
     <nav>
-      {navLinks.map(({ navLinkId, scrollToId }, index) => (
+      {navLinks.map(({ navLinkId, scrollToId, className }, index) => (
         <NavigationLink
           key={index}
           navLinkId={navLinkId}
           scrollToId={scrollToId}
+          className={className}
         />
       ))}
     </nav>

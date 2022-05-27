@@ -35,6 +35,6 @@ export const Data = [
     name: "page-seven",
     HeaderPageSeven: "Keep users engaged and coming back for more.",
     CopyPageSeven:
-      "Sites that complement the user journey with functional and captivating interaction can elevate the experience to a whole new level",
+      "Sites that complement the user journey with functional and captivating interaction can elevate the experience to a whole new level.",
   },
 ];

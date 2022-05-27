@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
 import { NavContext } from '../../Context/NavContext';
 
-const NavigationLink = ({ navLinkId, scrollToId }) => {
+const NavigationLink = ({ navLinkId, scrollToId , className }) => {
 	const { activeNavLinkId, setActiveNavLinkId } = useContext(NavContext);
+console.log(NavigationLink)
 
 	const handleClick = () => {
 		setActiveNavLinkId(navLinkId);
@@ -12,7 +13,7 @@ const NavigationLink = ({ navLinkId, scrollToId }) => {
 	return (
 		<span
 			id={navLinkId}
-			className={activeNavLinkId === navLinkId ? 'activeClass' : ''}
+			className={activeNavLinkId === navLinkId ? className : ''}
 			onClick={handleClick}
 			
 		>
